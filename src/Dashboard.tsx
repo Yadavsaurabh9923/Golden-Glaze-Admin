@@ -70,7 +70,7 @@ export default function Dashboard(props: { disableCustomTheme?: boolean }) {
   }, []);
 
   const handleCheckPassword = () => {
-    if (password === '737843') {
+    if (password === '691815') {
       const expiryTime = Date.now() + 10 * 60 * 1000; // 2 minutes in ms
       localStorage.setItem("unlocked", JSON.stringify({ value: true, expiresAt: expiryTime }));
       setOpen(false);
