@@ -71,6 +71,12 @@ export default function AllBookings() {
       minWidth: 150,
     },
     {
+      field: "phone_number",
+      headerName: "Phone Number",
+      flex: 1.2,
+      minWidth: 150,
+    },
+    {
       field: "start_time",
       headerName: "Start Time",
       headerAlign: "left",
