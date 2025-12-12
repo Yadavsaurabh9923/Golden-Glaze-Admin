@@ -10,7 +10,6 @@ interface PeakHoursChartProps {
 export default function PeakHoursChart({ data }: PeakHoursChartProps) {
   // Calculate minimum width for the chart based on number of data points
   const minChartWidth = Math.max(100, data.length * 60); // 80px per bar (adjust as needed)
-  console.log(data)
   
   return (
     <Paper elevation={2} sx={{ p: 2, height: 300, display: 'flex', flexDirection: 'column' }}>
